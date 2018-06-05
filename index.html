@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>    
+40523101的網際內容管理課程
+</title>
+    <meta name="description" content="Team of six in nfu web content manage ">
+    <meta name="author" content="WCM6">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css">
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+<section data-markdown>
+    <script type="text/template">
+#宜欣的期末報告
+
+##四設一甲 40523101
+<small>
+Created by [40523101](https://github.com/s40523101)
+</small>
+
+[Blog](blog/index.html)<br/>
+[Wiki](https://github.com/s40523101/2017springwcm_g6/wiki) <br/>
+[作業倉儲](https://github.com/s40523101/2017springwcm_hw) <br/>
+[小組倉儲](https://github.com/s40523101/2017springwcm_g6) <br/>
+[小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) <br/>
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+#這學期需有的軟體 
+<br/>
+tiny2017_1GB.7z
+<br/>
+Ubuntu 16.04
+<br/>
+vdi
+<br/>
+Virtual Box
+<br/>
+到140.130.17/public網站下載
+    </script>
+</section>
+
+<section>
+<section data-markdown>
+    <script type=''text/template''>
+#如何啟動CMsimpy
+<br/>
+1.先下載vdi
+<br/>
+2.利用ubuntu建立
+<br/>
+3.在ubuntu裡面查ip if config
+<br/>
+cat wsgi.py 
+<br/>
+就可開啟 CMsimply的網頁
+<br/>
+就可以摸索網頁的使用
+<br/>
+config 改密碼
+
+   </script>
+   
+   </section>
+<section data-markdown>
+    <script type=''text/template''>
+#在nginx上redecorate
+<br/>
+從hppts跳轉stunnel hppts
+<br/>
+gedie index.nginx.debian.html
+<br/>
+會跑出來程式
+<br/>
+Edit ngnix 當標題 fomats headings var/www/html/index 貼原始碼 格式html
+<br/>
+跳轉1.html跳轉meta
+<br/>
+2.java
+<br/>
+3. https://8.mde.tw 使用者可點
+   </script>
+   
+   </section>
+</section>
+						
+<section>
+<section data-markdown>
+    <script type=''text/template''>
+#設定網路ipv6
+<br/>
+Ubuntu 作業系統
+<br/>
+1.請按起始鍵搜尋 terminal，啟動 Terminal 操作介面
+<br/>
+2.sudo vi /etc/resolv.conf 指令進入設
+定 DNS 畫面
+<br/>
+3.行 sudo vi /etc/network/interfaces 指令進入設
+定 IP 介面
+<br/>
+4.重新啟動網路服務，於 terminal 操作介面執行 sudo
+<br/>
+/etc/init.d/networking/restart。
+   </script>
+   
+   </section>
+<section data-markdown>
+    <script type=''text/template''>
+設定網路ipv6Windows 作業系統
+<br/>
+[ipv6 2001:288:6004:17::7]
+<br/>
+2001:288:6004::1:2學校DNS
+<br/>
+2001:b000:168::1中華電信
+<br/>
+1.網路和網際網路
+<br/>
+2.變更介面卡設定
+<br/>
+3.區域連線
+<br/>
+4.網際網路通訊協定第六版
+<br/>
+5.手動設定 IPv6 位址<a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"><img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.png"width="350" height="350" title="source: imgur.com" /></a>
+   </script>
+   
+   </section>
+</section>
+<section>
+<section data-markdown>
+    <script type=''text/template''>
+#製作網路線
+<br/>
+首先準備好材料: 8蕊網路線 RJ-45接頭 剪刀 壓線鉗
+<br/>
+把網路線的外層塑膠殼剪開 裡面會有8條有顏色的線 將他們整理好並且剪到一樣長 
+<br/>
+網路線有2種接法
+<br/>
+<a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg"><img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/%E6%9C%AA%E5%91%BD%E5%90%8D.jpg"width="350" height="350" title="source: imgur.com" /></a>
+   </script>
+   
+   </section>
+<section data-markdown>
+    <script type=''text/template''>
+
+<br/>
+#兩種規格T568A及T586B
+<br/>
+一般傳輸用網路線 (兩端的網路頭皆為以下接法) 白橙、橙、白綠、藍、白藍、綠、白棕、棕 
+<br/>
+跳接法
+<br/>
+兩台電腦資料對傳 用色對規則 (一頭以正常傳輸色對接法、另一頭則為以下接法) 白綠、綠、白橙、藍、白藍、橙、白棕、棕 
+   </script>
+   
+   </section>
+</section>
+<section>
+拆裝主機板
+<br/>
+要先拔復活卡
+<br/>
+拔RAM 把兩台電腦的RAM合為一台
+<br/>
+拔硬碟裝到另一台
+<br/>
+拔電池
+<br/>
+把硬碟插電源
+<br/>
+在安裝Ubuntu
+<a href="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/S_6280151959520.jpg"><img src="https://raw.githubusercontent.com/s40523101/2017springwcm_hw/gh-pages/jpg/S_6280151959520.jpg"width="350" height="350" title="source: imgur.com" /></a>
+</section>				
+<section>
+建立UBUNTU虛擬主機建立nginx
+<br/>
+sudo apt update
+<br/>
+sudo rm /var/lib/dpkg/lock
+<br/> 
+sudo apt install nginx 安裝nginx 安裝完成會有3W
+<br/>
+ifconfig 
+<br/>
+cd /var/www/htm
+<br/>l
+ls -l
+<br/>
+sudo vi index.nginx-debian.html 就可更改
+<br/>
+總結:下載對應的vdi虛擬檔
+<br/>
+啟動設定橋接網路進來做update安裝nginx
+
+</section>	
+<section>
+心得這學期接觸到網際網路的應用
+<br/> 
+也更了解虛擬主機的應用
+<br/> 
+以及動手做接網路線
+<br/> 
+在接網路線的時候我們這組是第一個做好的
+<br/> 
+讓我感到很大的成就感
+<br/> 
+</section>	
+</section>
+
+</div>
+
+</div>
+
+<script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"></script>
+<script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"></script>
+<script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+</script>
+</body>
+</html>
+
